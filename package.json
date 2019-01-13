@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Kevin's amazing burger app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kpconway519/burger.git"
+  },
+  "keywords": [
+    "burger",
+    "classwork",
+    "delicious"
+  ],
+  "author": "Kevin Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kpconway519/burger/issues"
+  },
+  "homepage": "https://github.com/Kpconway519/burger#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
