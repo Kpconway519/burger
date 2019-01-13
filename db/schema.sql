@@ -3,11 +3,11 @@ DROP DATABASE IF EXISTS burger_db;
 CREATE DATABASE burger_db;
 USE burger_db;
 
-CREATE TABLE cats
+CREATE TABLE burgers
 (
-	id in NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
+	id INTEGER NOT NULL AUTO_INCREMENT,
+	burger_name VARCHAR(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
 
