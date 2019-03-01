@@ -1,6 +1,13 @@
-<h1>EAT-DA-BURGER</h1>
+  <link rel="stylesheet" type="text/css" href="../../public/assets/css/burger_style.css">
 
-<h2>Burgers left to eat</h2>
+
+<div class="header">
+  <h1>EAT-DA-BURGER</h1>
+</div>
+
+<div class="burgerContainer">
+  <div class="uneaten">
+  <h2>Burgers left to eat</h2>
 
 <ul>
   {{#each burgers}}
@@ -12,8 +19,10 @@
   {{/unless}}
   {{/each}}
 </ul>
+</div>
 
-<h2>Burgers I've eaten</h2>
+<div class="eaten">
+  <h2>Burgers I've eaten</h2>
 
 <ul>
   {{#each burgers}}
@@ -26,8 +35,11 @@
   {{/if}}
   {{/each}}
 </ul>
+</div>
+</div>
 
-<h2>Add a Burger</h2>
+<div class="burgerForm">
+  <h2>Add a Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -36,6 +48,7 @@
   </div>
   <button type="submit">Add Burger</button>
 </form>
+</div>
 
 
 

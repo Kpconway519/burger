@@ -3,7 +3,7 @@ const express = require("express")
 const exphbs = require("express-handlebars")
 const dotenv = require("dotenv").config();
 const app = express();
-var PORT = process.env.PORT;
+var PORT = process.env.PORT || 9000;
 app.use(express.static("public"));
 
 // Parse application body as JSON
