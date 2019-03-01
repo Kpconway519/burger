@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Iphone7plus",
+    password: process.env.password,
     database: "burger_db"
 });
 
